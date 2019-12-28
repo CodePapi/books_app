@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\7-Zip;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\IBM\SPSS\Statistics\23\JRE\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\SAMUEL MAJOR\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\SAMUEL MAJOR\AppData\Local\Programs\Python\Python38-32\;C:\Program Files (x86)\Nmap;C:\Users\SAMUEL MAJOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SAMUEL MAJOR\AppData\Local\GitHubDesktop\bin;C:\Users\SAMUEL MAJOR\AppData\Roaming\npm;C:\Users\SAMUEL MAJOR\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.5\bin;
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CodePapi/books_app.git"
+    },
+    "author": "Samuel Egbajie",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CodePapi/books_app/issues"
+    },
+    "homepage": "https://github.com/CodePapi/books_app#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
